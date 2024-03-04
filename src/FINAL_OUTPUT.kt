@@ -1,0 +1,20 @@
+fun main() {
+
+    println("1. PIRAMIDA FULL \n   ")
+    val PiramidaFull = PIRAMIDA_FULL(8)
+    PiramidaFull.printPiramidaFull()
+    println("2. PIRAMIDA TERBALIK \n   ")
+    val piramidaTerbalik = PIRAMIDA_TERBALIK(8)
+    piramidaTerbalik.printPiramidaTerbalik()
+    println("3. DIAMOND \n   ")
+    val DIAMOND = PIRAMIDA_FULL(8)
+    DIAMOND.printPiramidaFull()
+    val DIAMONDDOWN = PIRAMIDA_TERBALIK(8)
+    DIAMONDDOWN.printPiramidaTerbalik()
+    println("4. HOLLOW PIRAMID \n   ")
+    var hollow = Hollow(6)
+    hollow.printHollow()
+    println("5. X STAR \n    ")
+    var X = STAR_X(11)
+    X.printStarX()
+}
